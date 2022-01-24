@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nazinha Franco</title>
+  <link rel="stylesheet" type="text/css" href="../assets/css/stylesheets.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital@0;1&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <header class="menu">
+    <aside>
+      <div class="main-content menu-content">
+        <a href="#home"><img src="../assets/img/logo.png" /></a>
+        <nav class="efect-menu">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#">Escritório</a></li>
+            <li><a href="#area_atuacao">Áreas de Atuação</a></li>
+            <li><a href="#professional-section">Profissionais</a></li>
+            <li><a href="#">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </aside>
+  </header>
+
+  <section id="home" class="section">
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="../assets/img/image-from-rawpixel-id-800491-original.jpg" style="width:100%;height: 1000px;"
+            alt="alura">
+        </div>
+        <div class="item">
+          <img src="../assets/img/image-from-rawpixel-id-800491-original.jpg" style="width:100%;height: 100%"
+            alt="caelum">
+        </div>
+        <div class="item">
+          <img src="../assets/img/image-from-rawpixel-id-800491-original.jpg" style="width:100%;height: 100%"
+            alt="casa do código">
+        </div>
+      </div>
+      <a class="left carousel-control" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </section>
+
+  <section id="area_atuacao" class="section white-bg">
+    <div class="main-content">
+      <h6 class="space-h6">Especialidades</h6>
+      <h2>Áreas de Atuação</h2>
+      <div class="flex-specialties">
+        <div class="labor-content">
+          <div style="display: flex;">
+            <img src="../assets/img/civil-law.svg" alt="imagem direito trabalhista" class="img-labor-content" />
+            <h6>Direito Trabalhista</h6>
+          </div>
+          <div class="line-labor-content"></div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam fugiat veniam, obcaecati beatae aperiam,
+            deserunt fugit voluptate, delectus odio perferendis quibusdam quidem.
+            Animi sapiente voluptates culpa aliquam dignissimos odit architecto!
+            lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Recusandae autem vero error distinctio, libero quibusdam repellendus, reprehenderit ea atque veritatis
+            molestias laborum praesentium! Praesentium,
+            amet? Ullam maxime asperiores suscipit voluptatem.
+          </p>
+        </div>
+
+        <div class="civil-content">
+          <div style="display: flex;">
+            <img src="../assets/img/civil-law.svg" alt="imagem direito civil" class="img-labor-content" />
+            <h6>Direito Civil</h6>
+          </div>
+          <div class="line-civil-content"></div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam fugiat veniam, obcaecati beatae aperiam,
+            deserunt fugit voluptate, delectus odio perferendis quibusdam quidem.
+            Animi sapiente voluptates culpa aliquam dignissimos odit architecto!
+            lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Recusandae autem vero error distinctio, libero quibusdam repellendus, reprehenderit ea atque veritatis
+            molestias laborum praesentium! Praesentium,
+            amet? Ullam maxime asperiores suscipit voluptatem.
+          </p>
+        </div>
+
+        <div class="pension-content line-pension-content">
+          <div style="display: flex;">
+            <img src="../assets/img/civil-law.svg" alt="imagem direito trabalhista" class="img-labor-content" />
+            <h6>Direito Previdenciário</h6>
+          </div>
+          <div class="line-pension-content"></div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam fugiat veniam, obcaecati beatae aperiam,
+            deserunt fugit voluptate, delectus odio perferendis quibusdam quidem.
+            Animi sapiente voluptates culpa aliquam dignissimos odit architecto!
+            lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Recusandae autem vero error distinctio, libero quibusdam repellendus, reprehenderit ea atque veritatis
+            molestias laborum praesentium! Praesentium,
+            amet? Ullam maxime asperiores suscipit voluptatem.
+          </p>
+        </div>
+
+      </div>
+  </section>
+
+  <section id="professional-section" class="section gray-bg">
+    <p>Profissionais</p>
+  </section>
+</body>
+<script>
+
+</script>
+
+</html>

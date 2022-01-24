@@ -1,0 +1,206 @@
+:root{
+  --primary-collor:#0A1128;
+  --secondery-color:'crimson';
+  --white-collor:#FFFFFF;
+  --light-grey-color:#EEEEEE;
+  --light-color:#F8F8F8;
+  --new-gray-collor:#f4f6f8;
+  --davys-grey-collor:#4B5358;
+
+  --gap:3rem;
+}
+
+*{
+  margin:0;
+  padding: 0;
+}
+
+.menu-spacing{
+  height: 2.0rem;
+}
+
+html{
+  font-size:62.50%;
+  scroll-behavior: smooth;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family:'Open Sans', sans-serif;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 5.5rem;
+  color: var(--davys-grey-collor);
+}
+
+h2 {
+  font-size: 3rem;
+  margin-bottom: 3rem;
+  line-height: 1.2; 
+}
+
+h3 {
+  font-size: 4.0rem;
+}
+h4 {
+  font-size: 3.5rem;
+}
+h5 {
+  font-size: 3.0rem;
+}
+h6 {
+  font-size: 1.5rem;
+  color: var(--davys-grey-collor);
+}
+.space-h6{
+margin-bottom: 2px;
+margin-top: 85px;
+}
+.img-labor-content{
+  width: 50px;
+  height: 50px;
+}
+
+body{
+  font-size:1.6rem;
+  color: var(--primary-collor);
+  font-family:'Open Sans', sans-serif;
+  background-color: var(--light-grey-color);
+}
+h1{
+  font-family:'Montserrat', sans-serif;
+}
+
+.main-bg{
+  background-image: url('../img/image-from-rawpixel-id-800491-original.jpg');
+  background-size: cover;
+  color: var(--white-collor);
+  background-position: center center;
+}
+.white-bg{
+  background-color: var(--white-collor);
+}
+.gray-bg {
+  background-color: var(--new-gray-collor);
+}
+
+.main-content{
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: var(--gap);
+}
+.section{
+  min-height: 100vh;
+}
+.menu{
+  background: var(--white-collor);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  border-bottom: 0.1rem solid var(--light-grey-color);
+  z-index: 1;
+
+}
+.menu h1 {
+  font-size:2.3rem;
+  color: var(--davys-grey-collor);
+}
+.menu h1 a {
+  color:inherit;
+}
+
+.menu-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.menu ul{
+  display: flex;
+  list-style: none;
+  margin-bottom: 0;
+}
+.menu ul li a{
+  display: block;
+  padding: 4rem 2rem 4rem 2rem; 
+  font-size: 1.6rem;
+  color: var(--davys-grey-collor);
+  text-decoration: none;
+  position: relative;
+
+}
+.menu ul li a::after {
+ content:'';
+ position:absolute;
+ bottom: 0.1rem;
+ left: 0;
+ width:0;
+ height: 0.2rem;
+ background: crimson;
+}
+
+.menu ul li a:hover::after {
+  width: 100%;
+}
+
+.flex-specialties{
+  display: flex;
+  justify-content: space-between;
+}
+/** Direito trabalhista */
+.labor-law {
+  width: 35.0rem;
+  height: 35.0rem;
+  background-color: #FFFFFF;
+  
+}
+.labor-law-content{
+ justify-content: center;
+ text-align: center;
+}
+.line{
+ border-bottom:1px solid rgba(128, 124, 124, 0.1);
+ margin-bottom: 20px;
+}
+.line-labor-content{
+  border-bottom:1px solid rgba(128, 124, 124, 0.5);
+  margin-bottom: 20px;
+}
+.line-civil-content{
+  border-bottom:1px solid rgba(128, 124, 124, 0.5);
+  margin-bottom: 20px;
+}
+.line-pension-content{
+  border-bottom:1px solid rgba(128, 124, 124, 0.5);
+  margin-bottom: 20px;
+}
+.labor-content{
+  background-color: var(--white-collor);
+  border:  1px solid var(--light-grey-color);
+  border-radius: 10px;
+  margin-right: 20px;
+  color: var(--primary-collor);
+}
+.civil-content{
+  background-color: var(--white-collor);
+  margin-right: 20px;
+  border:  1px solid var(--light-grey-color);
+  border-bottom:  3px solid var(--light-grey-color);
+  border-radius: 10px;
+
+}
+.pension-content{
+  background-color: var(--white-collor);
+  border:  1px solid var(--light-grey-color);
+  border-bottom:  3px solid var(--light-grey-color);
+  border-radius: 10px;
+
+
+}
+.menu ul li:hover{
+background-color:var(--new-gray-collor);
+}

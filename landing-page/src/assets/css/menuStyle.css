@@ -1,0 +1,66 @@
+*{  margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color: #000;
+}
+
+aside {
+   padding: 0 4rem;
+   border-bottom: 0.1rem solid rgba(73,73,80,0.2);
+   background-color: #121214;
+}
+aside div {
+    display: flex;
+    justify-content: space-between;
+}
+aside div h1{
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding:1rem 0 1rem 0;
+    font-size: 2rem;
+    color: #FFF;
+}
+
+aside div nav ul{
+ display: flex;
+ list-style: none;  
+}
+aside div nav li{
+    padding: 2rem 1rem 2rem 1rem;
+}
+
+aside div nav li a{
+    display: block;
+    text-decoration: none;
+    color: #737380;
+    font-size: 1.6rem;
+    font-family: sans-serif;
+    
+}
+aside div nav li:hover{
+    background-color:rgba(73, 73, 80, 0.3);
+}
+aside div nav li a:hover{
+    color:#fff;
+    font-size: 1.8rem;
+}
+aside div nav ul li a::after {
+    content: '';
+    position: absolute;
+    bottom: 1.0rem;
+    left: 5.0rem;
+    width: 0;
+    height: 0.1rem;
+    background: crimson;
+    transition: all 300ms ease-in-out;
+  }
+  
+  aside div nav li a:hover::after {
+    width: 50%;
+    left: 25%;
+  }
+  

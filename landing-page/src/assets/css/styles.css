@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding:0
+}
+html{
+    font-size:62.50%;
+  }
+.main-bg {
+    background-image: url('../img/main-bg.jpg');
+    background-size: cover;
+    background-position-x: center center;  
+}
+.main-content-header{
+    max-width:1231px;
+    margin:auto
+}
+.bg-color {
+    background-color: yellow;
+}
+
+.main-logo {
+    width: 134;
+    height: 40;
+}
+.redButton {
+    background-color: #e50914;
+    line-height: normal;
+    padding: 7px 17px;
+    font-weight: 400;
+    font-size: 1rem;
+    float: right;
+}
